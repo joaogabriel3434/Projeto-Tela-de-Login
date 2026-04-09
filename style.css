@@ -1,0 +1,48 @@
+@charset "UTF-8";
+*{
+    padding:0px;
+    margin:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.904);
+    
+}
+#login{
+    background-color: rgb(6, 6, 109);
+    display: block;
+    margin: auto;
+    width:250px;
+    height: 400px;
+    border-radius: 2px 2px 0px 2px;
+    position: relative;
+    margin-top: 100px;
+    overflow:hidden;
+}
+#login div#imagem{
+    display: block;
+    background: url(../imagens/imagem-predio.jpg) no-repeat;
+    background-size: cover;
+    height:200px;
+    background-position: left ;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.5s ;
+}
+#login div#formulario{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    margin: 10px;
+}
+footer p{
+    text-align: center;
+    background-color: rgb(29, 29, 134);
+    color: white;
+}
+footer a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
